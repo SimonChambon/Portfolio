@@ -6,6 +6,12 @@ if(!isset($_GET['p'])){
         case "cv":  
             include_once "import/cv.php";
             break;
+        case "menu":
+            include_once "import/menu2.php";
+            break;
+        case "newsletter":  
+            include_once "import/newsletter.php";
+            break;
         case "tuto":
             include_once "import/tuto.php";
             break;

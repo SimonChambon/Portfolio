@@ -1,0 +1,132 @@
+html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
+
+body {
+    background-color: black;
+    height: 100%;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    display: grid;
+    grid-template-rows: 50px 335px auto 90px;
+}
+
+header {
+    margin: 0px;
+    padding :0px;
+    display: grid;
+    grid-template-columns: auto 62px;
+    grid-template-rows: 50px;
+    border-bottom: 1px solid white;
+}
+
+h1 {
+    display: block;
+    font-size: 0.8em;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    font-weight: normal;
+
+}
+header img {
+    padding: 12.5px 18px 12.5px 18px;
+    height: 25px;
+    width: auto;
+    line-height: 25px;
+    margin: 0px;
+    border-left: 1px solid white;
+
+}
+
+nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+li {
+	padding: 0px;
+	margin:0px;
+	width: 100%;
+	border-bottom: 1px solid white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    border: white;
+    display: inline-block;
+    padding: 0px 0px 0px 20px;
+    margin: 0px;
+    height: 66px;
+    line-height: 66px;
+    font-size: 2em;
+}
+
+
+li a:hover {
+    color: black;
+    background-color: white;
+    width: 100%;
+    opacity: 90%;
+    transition-duration: 50ms;
+    transition-timing-function: ease-in-out;
+}
+
+main {
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+
+main p {
+    font-weight: lighter;
+    font-size: 15px;
+    padding: 3px 0px 3px 20px; 
+}
+
+main a {
+    text-decoration: none;
+    color: white;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    grid-row-start: 4;
+    grid-row-end: 5;
+    padding: 0px;
+    border-top: 1px solid white;
+}
+
+footer p {
+    margin: auto 0px;
+    padding: 20px;
+    font-size: 0.8em;
+    line-height: 140%;
+}
+
+@media screen and (max-height: 600px) {
+    #about {
+    display: none;
+    }
+    body {
+        grid-template-rows: 50px auto auto 90px;
+    }
+}
