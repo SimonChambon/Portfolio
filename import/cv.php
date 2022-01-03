@@ -11,12 +11,14 @@
 <body>
     <header>
     <?php include "menu.php"?>
-        <h2 class="titre">RESUME</h2>
-        <h2 class="about">ABOUT</h2>
     </header>
 
-    <main>    
+    <main> 
+        <h2 class="titre">Resume</h2>   
     </main> 
-    <?php include "about.php"?>
+    <section id="side">
+        <h2 class="about">About</h2>
+        <?php include "about.php"?>
+    </section>
 </body>
 </html>

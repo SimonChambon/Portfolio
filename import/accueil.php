@@ -6,17 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="img/icons8-mon-ordinateur-50.png">
-    <title>HOME</title>
+    <title>Home</title>
 </head>
 <body>
     <header>
     <?php include "menu.php"?>
-        <h2 class="titre">WEB DEVELOPER</h2>
-        <h2 class="about">ABOUT</h2>
     </header>
-
-    <main>    
+    <main class="index">
+        <h2 class="titre">Web Developer</h2>
+        <div class="imgContainer2">
+                <img src="img/index.jpg" alt="bureau">
+        </div> 
     </main>
-    <?php include "about.php"?>
+    <section id="side">
+        <h2 class="about">About</h2>
+        <?php include "about.php"?>
+    </section>
 </body>
 </html>

@@ -11,11 +11,10 @@
 <body>
     <header>
     <?php include "menu.php"?>
-        <h2 class="titre">NEWSLETTER</h2>
-        <h2 class="about">ABOUT</h2>
     </header>
 
-    <main>
+    <main class="formDisplay">
+        <h2 class="titre">Newsletter</h2>
         <form>
             <p>Fill this form here in order to receive some news about my latest achievements.</p>
             <div class="inputRow">
@@ -53,6 +52,9 @@
             <p><a href="">Read legal notice & Credits</a><br><a href="./?p=admin">Log into Admin</a><br><a href="https://www.instagram.com/simon_andreani/" target="_blank">Have a look to my Instagram Account</a></p>
         </div>
     </main>
-    <?php include "about.php"?>
+    <section id="side">
+        <h2 class="about">About</h2>
+        <?php include "about.php"?>
+    </section>
 </body>
 </html>

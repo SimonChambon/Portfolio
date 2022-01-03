@@ -11,11 +11,10 @@
 <body>
     <header>
     <?php include "menu.php"?>
-        <h2 class="titre">ADMIN</h2>
-        <h2 class="about">ABOUT</h2>
     </header>
 
-    <main>
+    <main class="formDisplay">
+        <h2 class="titre">Admin</h2>
         <form>
             <p>This is a personal acess to my very own private space, nothing interesting for you here.</p>
             <div class="inputRow">
@@ -50,6 +49,9 @@
             <p><a href="">Read legal notice & Credits</a><br><a href="./?p=newsletter">Subscribe to my monthly Newsletter</a><br><a href="https://www.instagram.com/simon_andreani/" target="_blank">Have a look to my Instagram Account</a></p>
         </div>    
     </main> 
-    <?php include "about.php"?>
+    <section id="side">
+        <h2 class="about">About</h2>
+        <?php include "about.php"?>
+    </section>
 </body>
 </html>
